@@ -19,7 +19,9 @@ Working
 
  **❤️ THANKS FOR OVER 100 DOWNLOADS ❤️**
 
-## People who used this mod! (Make an issue if you don't want your name here!)
+## People who used this mod!
+(Make an issue if you don't / do want your name here!)      
+
 Majora    
 musigt  
 
