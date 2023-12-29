@@ -10,7 +10,8 @@ This mod only works in modded lobbies, do not expect cheats from me!
 Any mod can get you banned, just some (like this one) will very rarely get you banned.
 
 ## Status
-Working    
+Working              
+
 ![GitHub All Releases](https://img.shields.io/github/downloads/SteveTheAnimator/Legs/total)
 
 # *LEG MOD*
