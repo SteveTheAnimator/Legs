@@ -17,6 +17,8 @@ Working
 [![GitHub Issues](https://img.shields.io/github/issues/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/issues)
 ![GitHub All Releases](https://img.shields.io/github/downloads/SteveTheAnimator/Legs/total)
 
+ **❤️ THANKS FOR OVER 100 DOWNLOADS ❤️**
+
 ## For Starting / Old Developers
 If you want to build this project, follow the steps [HERE](https://github.com/SteveTheAnimator/Legs/blob/main/How%20To%20Build.md)
 
