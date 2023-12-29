@@ -46,13 +46,13 @@ namespace LegMod
 
 						Transform leftarmtrans = leftarm.transform;
 
-						leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						leftarmtrans.position += new Vector3(0f, -0.3f, 0f);
 						Debug.Log(leftarm, leftarmtrans);
 						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
 						Transform rightarmtrans = rightarm.transform;
 
-						rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, -0.3f, 0f);
 					}
 					else
 					{
@@ -101,13 +101,13 @@ namespace LegMod
 
 						Transform leftarmtrans = leftarm.transform;
 
-						leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						leftarmtrans.position += new Vector3(0f, 0.3f, 0f);
 						Debug.Log(leftarm, leftarmtrans);
 						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
 						Transform rightarmtrans = rightarm.transform;
 
-						rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, 0.3f, 0f);
 					}
 					else
 					{
@@ -162,13 +162,13 @@ namespace LegMod
 
 						Transform leftarmtrans = leftarm.transform;
 
-						leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						leftarmtrans.position += new Vector3(0f, -0.3f, 0f);
 						Debug.Log(leftarm, leftarmtrans);
 						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
 						Transform rightarmtrans = rightarm.transform;
 
-						rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, -0.3f, 0f);
                     }
 					else
                     {
@@ -218,13 +218,13 @@ namespace LegMod
 
 						Transform leftarmtrans = leftarm.transform;
 
-						leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						leftarmtrans.position += new Vector3(0f, 0.3f, 0f);
 						Debug.Log(leftarm, leftarmtrans);
 						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
 						Transform rightarmtrans = rightarm.transform;
 
-						rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, 0.3f, 0f);
 					}
 					else
 					{
