@@ -19,6 +19,10 @@ Working
 
  **❤️ THANKS FOR OVER 100 DOWNLOADS ❤️**
 
+## People who used this mod! (Make an issue if you don't want your name here!)
+Majora
+musigt
+
 ## For Starting / Old Developers
 If you want to build this project, follow the steps [HERE](https://github.com/SteveTheAnimator/Legs/blob/main/How%20To%20Build.md)
 
