@@ -12,6 +12,8 @@ Any mod can get you banned, just some (like this one) will very rarely get you b
 ## How do I install it?
 I have made a tutorial, watch [THIS](https://www.youtube.com/watch?v=64WKT6eUkfo)
 
+You can also download this mod using [Monke Mod List](https://github.com/MrBanana01/MonkeModList)!
+
 ## Status
 Working              
 
