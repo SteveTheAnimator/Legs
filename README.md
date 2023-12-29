@@ -9,6 +9,9 @@ This mod only works in modded lobbies, do not expect cheats from me!
 ## Can this get me banned?
 Any mod can get you banned, just some (like this one) will very rarely get you banned.
 
+## How do I install it?
+I have made a tutorial, watch [THIS](https://www.youtube.com/watch?v=64WKT6eUkfo)
+
 ## Status
 Working              
 
