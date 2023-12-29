@@ -12,6 +12,9 @@ Any mod can get you banned, just some (like this one) will very rarely get you b
 ## Status
 Working              
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Release](https://img.shields.io/github/release/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/releases)
+[![GitHub Issues](https://img.shields.io/github/issues/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/issues)
 ![GitHub All Releases](https://img.shields.io/github/downloads/SteveTheAnimator/Legs/total)
 
 # *LEG MOD*
