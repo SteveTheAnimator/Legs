@@ -13,11 +13,25 @@ namespace LegMod
 		bool inRoom;
 		bool isEnabled;
 		bool isBean;
+		bool isChimp;
+		bool isWarned;
 
 		public void GetConfigs()
         {
 			bool BeanMode = Config.Bind("Bean", "Bean", false, "makes you a bean, simple.").Value;
-			isBean = BeanMode;
+			bool ChimpMode = Config.Bind("Chimp", "Chimp", false, "Makes you look like a chimpanzee!").Value;
+			if (!isChimp)
+			{
+				isBean = BeanMode;
+			}
+			if (!isBean)
+			{
+				isChimp = ChimpMode;
+			}
+			if(isChimp && isBean)
+            {
+				isWarned = true;
+            }
 		}
 
 		void OnEnable()
@@ -26,17 +40,34 @@ namespace LegMod
             {
 				if (!isBean)
 				{
-					GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+					if (!isChimp)
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
 
-					Transform leftarmtrans = leftarm.transform;
+						Transform leftarmtrans = leftarm.transform;
 
-					leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
-					Debug.Log(leftarm, leftarmtrans);
-					GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+						leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
-					Transform rightarmtrans = rightarm.transform;
+						Transform rightarmtrans = rightarm.transform;
 
-					rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+					}
+					else
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+
+						Transform leftarmtrans = leftarm.transform;
+
+						leftarmtrans.position += new Vector3(0f, 0.1f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+
+						Transform rightarmtrans = rightarm.transform;
+
+						rightarmtrans.position += new Vector3(0f, 0.1f, 0f);
+					}
 				}
 				else
 				{
@@ -64,17 +95,34 @@ namespace LegMod
 			{
 				if (!isBean)
 				{
-					GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+					if (!isChimp)
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
 
-					Transform leftarmtrans = leftarm.transform;
+						Transform leftarmtrans = leftarm.transform;
 
-					leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
-					Debug.Log(leftarm, leftarmtrans);
-					GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+						leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
-					Transform rightarmtrans = rightarm.transform;
+						Transform rightarmtrans = rightarm.transform;
 
-					rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+					}
+					else
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+
+						Transform leftarmtrans = leftarm.transform;
+
+						leftarmtrans.position += new Vector3(0f, -0.1f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+
+						Transform rightarmtrans = rightarm.transform;
+
+						rightarmtrans.position += new Vector3(0f, -0.1f, 0f);
+					}
 				}
 				else
                 {
@@ -108,17 +156,34 @@ namespace LegMod
 			{
 				if (!isBean)
 				{
-					GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+					if(!isChimp)
+                    {
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
 
-					Transform leftarmtrans = leftarm.transform;
+						Transform leftarmtrans = leftarm.transform;
 
-					leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
-					Debug.Log(leftarm, leftarmtrans);
-					GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+						leftarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
-					Transform rightarmtrans = rightarm.transform;
+						Transform rightarmtrans = rightarm.transform;
 
-					rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, -0.2f, 0f);
+                    }
+					else
+                    {
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+
+						Transform leftarmtrans = leftarm.transform;
+
+						leftarmtrans.position += new Vector3(0f, 0.1f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+
+						Transform rightarmtrans = rightarm.transform;
+
+						rightarmtrans.position += new Vector3(0f, 0.1f, 0f);
+					}
 				}
 				else
 				{
@@ -147,17 +212,34 @@ namespace LegMod
 			{
 				if (!isBean)
 				{
-					GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+					if (!isChimp)
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
 
-					Transform leftarmtrans = leftarm.transform;
+						Transform leftarmtrans = leftarm.transform;
 
-					leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
-					Debug.Log(leftarm, leftarmtrans);
-					GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+						leftarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
 
-					Transform rightarmtrans = rightarm.transform;
+						Transform rightarmtrans = rightarm.transform;
 
-					rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+						rightarmtrans.position += new Vector3(0f, 0.2f, 0f);
+					}
+					else
+					{
+						GameObject leftarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.L/");
+
+						Transform leftarmtrans = leftarm.transform;
+
+						leftarmtrans.position += new Vector3(0f, -0.1f, 0f);
+						Debug.Log(leftarm, leftarmtrans);
+						GameObject rightarm = GameObject.Find("Player Objects/Local VRRig/Local Gorilla Player/rig/body/shoulder.R/");
+
+						Transform rightarmtrans = rightarm.transform;
+
+						rightarmtrans.position += new Vector3(0f, -0.1f, 0f);
+					}
 				}
 				else
 				{
@@ -175,6 +257,15 @@ namespace LegMod
 				}
 			}
 			inRoom = false;
+		}
+		void OnGUI()
+		{
+			// If chimp and bean are on at the same time, give them a warning.
+			if (isWarned)
+			{
+				GUI.color = Color.red;
+				GUI.Label(new Rect(0, 0, 200, 200), "WARNING: You cannot use Bean and Chimp at the same time!");
+			}
 		}
 	}
 }
