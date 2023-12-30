@@ -35,5 +35,8 @@ DynoDev  (Play Chums VR!)
 ## For Starting / Old Developers
 If you want to build this project, follow the steps [HERE](https://github.com/SteveTheAnimator/Legs/blob/main/How%20To%20Build.md)
 
+## "Can you add networking?"
+No, read [THIS](https://github.com/SteveTheAnimator/Legs/blob/main/No%20Networking.md)
+
 # *LEG MOD*
 ![image](https://github.com/SteveTheAnimator/Legs/assets/103543324/a7192129-7f1c-4e34-8ea2-8f796e96de40)
