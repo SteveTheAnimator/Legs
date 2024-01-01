@@ -22,7 +22,7 @@ Working
 [![GitHub Issues](https://img.shields.io/github/issues/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/issues)
 ![GitHub All Releases](https://img.shields.io/github/downloads/SteveTheAnimator/Legs/total)
 
- **❤️❤️ THANKS FOR OVER 300 DOWNLOADS ❤️❤️**
+ **❤️❤️❤️❤️ THANKS FOR OVER 500 DOWNLOADS ❤️❤️❤️❤️**
 
 ## People who used this mod!
 (Make an pull request if you don't / do want your name here!)      
