@@ -12,7 +12,7 @@ Any mod can get you banned, just some (like this one) will very rarely get you b
 ## How do I install it?
 I have made a tutorial, watch [THIS](https://www.youtube.com/watch?v=64WKT6eUkfo)
 
-You can also download this mod using [Monke Mod List](https://github.com/MrBanana01/MonkeModList)! (Downloading this leg mod from MML will make it a little out dated I should say...)
+You can also download this mod using [Monke Mod List](https://github.com/MrBanana01/MonkeModList)! (Downloading this leg mod from MML will make it a little out dated...)
 
 ## Status
 Working              
@@ -35,8 +35,13 @@ DynoDev  (Play Chums VR!)
 ## For Starting / Old Developers
 If you want to build this project, follow the steps [HERE](https://github.com/SteveTheAnimator/Legs/blob/main/How%20To%20Build.md)
 
-## "Can you add networking?"
-No, read [THIS](https://github.com/SteveTheAnimator/Legs/blob/main/No%20Networking.md)
+## Q & A
+### "Can you add networking?"    
+No, read [THIS](https://github.com/SteveTheAnimator/Legs/blob/main/No%20Networking.md)    
+### "Can I use this code for my mod?"    
+Yes, but you have to credit me!    
+### "This mod sucks, do you have any better mods?"    
+Yes I do, you can get [Steve's Modding Tools](https://github.com/SteveTheAnimator/Steves-Modding-Tools).    
 
 # *LEG MOD*
 ![image](https://github.com/SteveTheAnimator/Legs/assets/103543324/a7192129-7f1c-4e34-8ea2-8f796e96de40)
