@@ -1,5 +1,6 @@
 # *Legs*
-This mod only works in modded lobbies, do not expect cheats from me!
+This mod only works in modded lobbies
+fr fr expect so many cheats from me (real!!!)
 
 ## How to use
 1. Download it like any other mod
