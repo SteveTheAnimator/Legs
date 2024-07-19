@@ -1,3 +1,5 @@
+stop fucking using this mod and actually check out my other cool mods
+
 # *Legs*
 This mod only works in modded lobbies
 fr fr expect so many cheats from me (real!!!)
