@@ -14,7 +14,7 @@ I have made a tutorial, watch [THIS](https://www.youtube.com/watch?v=64WKT6eUkfo
 Working              
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Release](https://img.shields.io/github/release/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/releases)
+[![GitHub Release](https://img.shields.io/github/release/SteveTheAnimator/Legs.svg)](https://github.com/AngelxdripUNITY/Legs/releases/tag/v0.0.1))
 [![GitHub Issues](https://img.shields.io/github/issues/SteveTheAnimator/Legs.svg)](https://github.com/SteveTheAnimator/Legs/issues)
 ![GitHub All Releases](https://img.shields.io/github/downloads/SteveTheAnimator/Legs/total)
 
